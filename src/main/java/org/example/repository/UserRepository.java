@@ -13,9 +13,13 @@ public class UserRepository {
         return Collections.unmodifiableCollection(users);
     }
 
-    public User getByLogin(String login) {
-        getAllUser().stream().filter(user -> login.equals(user.getLogin()));
-        return Optional < User >;
+    public Optional<User> getByLogin(String login) {
+        if (getAllUser()
+                .stream()
+                .filter(user -> login.equals(user.getLogin()))){
+
+        }else {
+        return Optional<User>;
     }
 
     public User getByLoginAndPassword(String login, String password) {

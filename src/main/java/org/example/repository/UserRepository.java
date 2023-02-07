@@ -9,15 +9,16 @@ public class UserRepository {
 
     private List<User> users = new ArrayList<>();
     private Object Optional;
+    private User user;
 
     public Collection<User> getAllUser() {
         return Collections.unmodifiableCollection(users);
     }
 
-    public Optional<User> getByLogin(String login) {
-        getAllUser()
-                .stream()
-                .filter(user -> login.equals(user.getLogin()));
+    public String getByLogin(String login) {
+        if (!users.contains(login)){
+            System.out.println("Логин не найден");
+        }
         return Optional <User>;
     }
 

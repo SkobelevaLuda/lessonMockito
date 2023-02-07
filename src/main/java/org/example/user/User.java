@@ -3,7 +3,7 @@ package org.example.user;
 import java.util.Objects;
 
 public class User {
-    private final String login;
+    private static String login;
     private String password;
 
     public User(String login, String password) {
@@ -11,7 +11,7 @@ public class User {
         this.password = password;
     }
 
-    public String getLogin() {
+    public static String getLogin() {
         return login;
     }
 

@@ -7,21 +7,24 @@ import java.util.*;
 
 public class UserRepository {
 
-    private Map<Integer, User> allUsers = new HashMap<>();
+    private List<User> users = new ArrayList<>();
 
-    public List<User> getAllUser(){
-        return new ArrayList<User>(allUsers.values());
-    }
-    public User getByLogin(String login){
-        if(this.allUsers.stream().filter(user -> login.equals(User.getLogin()))
-                .findFirst());
-        return Optional<User>;
-
+    public Collection<User> getAllUser() {
+        return Collections.unmodifiableCollection(users);
     }
 
-
-    public List<User> addUser( User user){
-         List.of().add(user);
-         return (List<User>) user;
+    public User getByLogin(String login) {
+        getAllUser().stream().filter(user -> login.equals(user.getLogin()));
+        return Optional < User >;
     }
+
+    public User getByLoginAndPassword(String login, String password) {
+        getAllUser().stream().anyMatch(user -> user.equals(user));
+        return Optional < User >;
+
+    }
+    public void addUser(User user) {
+        List.of(user);
+    }
+
 }

@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class User {
     private final String login;
-    private final String password;
+    private String password;
 
     public User(String login, String password) {
         this.login = login;
@@ -17,6 +17,10 @@ public class User {
 
     public String getPassword() {
         return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override

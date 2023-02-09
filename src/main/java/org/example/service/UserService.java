@@ -4,17 +4,18 @@ import org.example.exception.UserNonUniqueException;
 import org.example.repository.UserRepository;
 import org.example.user.User;
 
+import java.util.Optional;
+
 
 public class UserService {
 
     private UserRepository userRepository;
-    private User user;
 
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
-    public String loginOfUsers(){
+    public Optional<User> loginOfUsers(){
         return userRepository.getByLogin(User.getLogin());
     }
 

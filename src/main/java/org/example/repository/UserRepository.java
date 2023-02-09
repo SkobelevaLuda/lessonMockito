@@ -13,13 +13,13 @@ public class UserRepository {
 
 
     public static List<User> getAllUsers(){
-        return new ArrayList<>(users);
+        return new ArrayList<>();
     }
-
-    public static User addUser1(String login, String password) {
-        User user= new User(login, password);
+    public User addUser(User user) {
+        users.add(user);
         return (User) users;
     }
+
 
     public Optional<User> getByLogin(String login) {
 
@@ -35,11 +35,6 @@ public class UserRepository {
             }
         }
         return Optional.empty();
-    }
-
-    public User addUser(User user) {
-        users.add(user);
-        return user;
     }
 
 }

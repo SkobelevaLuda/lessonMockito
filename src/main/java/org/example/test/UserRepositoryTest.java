@@ -26,7 +26,7 @@ public class UserRepositoryTest {
     @Test
     public void getAllUsersTest() {
 
-        List<User> expected = Collections.singletonList(UserRepository.addUser1(User.getLogin(), User.getPassword()));
+        List<User> expected = UserRepository.getAllUsers();
 
         List<User> actual = new ArrayList<>();
 

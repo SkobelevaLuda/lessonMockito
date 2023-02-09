@@ -5,21 +5,30 @@ import org.example.user.User;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
 public class UserRepository {
 
     private static List<User> users = new ArrayList<>();
-    private boolean hasUser(){
-        for (User user : users){
-            if (user.equals(this) && user.hashCode() == this.hashCode()){
+
+    private boolean hasUser() {
+        for (User user : users) {
+            if (user.equals(this) && user.hashCode() == this.hashCode()) {
                 return true;
             }
         }
         return false;
     }
 
-    public static List<User> getAllUser() {
-        users.add(new User(User.getLogin(),User.getPassword()));
+  /*  public static List<User> getAllUsers(){
         return new ArrayList<>(users);
+    }*/
+
+    public static List<User> getAllUsers(){
+        List<User> listAllUsers = new ArrayList<>();
+        for (User user : users.toArray()){
+                listAllUsers.add(user);
+        }
+        return listAllUsers;
     }
 
     public Optional<User> getByLogin(String login) {

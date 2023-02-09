@@ -28,7 +28,7 @@ public class UserService {
             throw new IllegalArgumentException("Неверное значение пароля");
         }
         boolean userExist= this.userRepository
-                .getAllUser().stream()
+                .getAllUsers().stream()
                 .allMatch(u->u.equals(user));
         if(userExist){
             throw new UserNonUniqueException();

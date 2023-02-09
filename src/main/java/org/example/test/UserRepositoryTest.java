@@ -17,7 +17,7 @@ public class UserRepositoryTest {
 
     @Test
     public void emptyList() {
-        List<User> expected = UserRepository.getAllUser();
+        List<User> expected = UserRepository.getAllUsers();
         Assert.assertNotNull(expected);
 
     }
@@ -25,7 +25,7 @@ public class UserRepositoryTest {
     @Test
     public void getAllUsersTest() {
 
-        List<User> expected = UserRepository.getAllUser();
+        List<User> expected = UserRepository.getAllUsers();
 
         List<User> actual = new ArrayList<>();
 

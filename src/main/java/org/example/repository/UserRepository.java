@@ -18,7 +18,7 @@ public class UserRepository {
     }
 
     public static List<User> getAllUser() {
-
+        users.add(new User(User.getLogin(),User.getPassword()));
         return new ArrayList<>(users);
     }
 
@@ -41,7 +41,7 @@ public class UserRepository {
     }
 
     public void addUser(User user) {
-        users.add(user);
+        List.of(user);
     }
 
 }

@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class User {
     private static String login;
-    private String password;
+    private static String password;
 
     public User(String login, String password) {
         this.login = login;
@@ -15,7 +15,7 @@ public class User {
         return login;
     }
 
-    public String getPassword() {
+    public static String getPassword() {
         return password;
     }
 

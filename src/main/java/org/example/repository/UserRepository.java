@@ -41,7 +41,7 @@ public class UserRepository {
     }
 
     public void addUser(User user) {
-        List.of(user);
+        users.add(user);
     }
 
 }

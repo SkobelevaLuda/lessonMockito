@@ -7,6 +7,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class UserRepositoryTest {
@@ -25,7 +26,7 @@ public class UserRepositoryTest {
     @Test
     public void getAllUsersTest() {
 
-        List<User> expected = UserRepository.getAllUsers();
+        List<User> expected = Collections.singletonList(UserRepository.addUser1(User.getLogin(), User.getPassword()));
 
         List<User> actual = new ArrayList<>();
 

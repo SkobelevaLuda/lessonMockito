@@ -1,6 +1,5 @@
 package org.example.user;
 
-import java.util.Collection;
 import java.util.Objects;
 
 public class User {

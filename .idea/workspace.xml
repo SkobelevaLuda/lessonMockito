@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc7115d8-610c-4817-b0dd-cf3f5a7d438e" name="Changes" comment="Первый коммит">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/UserRepositoryTest.java" afterDir="false" />
     </list>
@@ -149,7 +150,8 @@
       <workItem from="1675922352741" duration="1115000" />
       <workItem from="1675923641908" duration="71000" />
       <workItem from="1675923781297" duration="14514000" />
-      <workItem from="1675959432523" duration="10052000" />
+      <workItem from="1675959432523" duration="10492000" />
+      <workItem from="1676017817538" duration="6302000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит">
       <created>1675681696941</created>
@@ -235,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675980105399</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Первый коммит">
+      <created>1675981579188</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675981579188</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

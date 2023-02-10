@@ -1,6 +1,8 @@
 package org.example.repository;
 
 import org.example.user.User;
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,15 +11,14 @@ import java.util.Optional;
 
 public class UserRepository {
 
-    private static List<User> users = new ArrayList<>();
+    private List<User> users = new ArrayList<>();
 
 
-    public static List<User> getAllUsers(){
-        return new ArrayList<>();
+    public List<User> getAllUsers(){
+        return users;
     }
-    public User addUser(User user) {
+    public void addUser(User user) {
         users.add(user);
-        return (User) users;
     }
 
 
@@ -28,7 +29,7 @@ public class UserRepository {
                 .findAny();
     }
 
-    public static Optional<User> getByLoginAndPassword(String login, String password) {
+    public Optional<User> getByLoginAndPassword(String login, String password) {
         for (User user : users) {
             if (user.getLogin().equals(login) && user.getPassword().equals(password)) {
                 return Optional.of(user);

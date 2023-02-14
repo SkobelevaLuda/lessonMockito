@@ -4,14 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc7115d8-610c-4817-b0dd-cf3f5a7d438e" name="Changes" comment="" />
+    <list default="true" id="bc7115d8-610c-4817-b0dd-cf3f5a7d438e" name="Changes" comment="Тесты">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/test/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/test/UserServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2LMMvmKDRLPdz28n0yb3TO59Nmr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,9 +46,113 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "C:/Users/Людок/IdeaProjects/lessonMockito/src/test/java",
+    "last_opened_file_path": "C:/Users/Людок/IdeaProjects/lessonMockito",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserRepositoryTest.testNonUserLogin">
+    <configuration name="UserRepositoryTest.emptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lessonMockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="emptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest.getAllUsersList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lessonMockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="getAllUsersList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest.getAllUsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lessonMockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="getAllUsersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest.testNonUserLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lessonMockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="testNonUserLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest.testUserLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lessonMockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="testUserLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserRepositoryTest.testNonUserLogin" />
+        <item itemvalue="JUnit.UserRepositoryTest.getAllUsersList" />
+        <item itemvalue="JUnit.UserRepositoryTest.testUserLogin" />
+        <item itemvalue="JUnit.UserRepositoryTest.emptyList" />
+        <item itemvalue="JUnit.UserRepositoryTest.getAllUsersTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,8 +161,168 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675676742045</updated>
-      <workItem from="1675676743117" duration="2000" />
+      <workItem from="1675676743117" duration="3156000" />
+      <workItem from="1675682197299" duration="967000" />
+      <workItem from="1675703545586" duration="807000" />
+      <workItem from="1675712696790" duration="6062000" />
+      <workItem from="1675756985759" duration="13125000" />
+      <workItem from="1675796803947" duration="6071000" />
+      <workItem from="1675848041271" duration="2824000" />
+      <workItem from="1675922352741" duration="1115000" />
+      <workItem from="1675923641908" duration="71000" />
+      <workItem from="1675923781297" duration="14514000" />
+      <workItem from="1675959432523" duration="10492000" />
+      <workItem from="1676017817538" duration="7748000" />
+      <workItem from="1676051018879" duration="1196000" />
+      <workItem from="1676103149925" duration="2493000" />
+      <workItem from="1676197037675" duration="1195000" />
+      <workItem from="1676358806659" duration="632000" />
+      <workItem from="1676395525829" duration="8657000" />
     </task>
+    <task id="LOCAL-00001" summary="Первый коммит">
+      <created>1675681696941</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675681696941</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Первый коммит">
+      <created>1675684895343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675684895343</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Первый коммит">
+      <created>1675718493710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675718493710</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Первый коммит">
+      <created>1675780884335</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675780884335</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Первый коммит">
+      <created>1675782026256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675782026256</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Первый коммит">
+      <created>1675799794745</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675799794745</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Первый коммит">
+      <created>1675802812907</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675802812907</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Первый коммит">
+      <created>1675934447508</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675934447508</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Первый коммит">
+      <created>1675940739860</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675940739860</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Первый коммит">
+      <created>1675944123741</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675944123741</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Первый коммит">
+      <created>1675964664885</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675964664885</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Первый коммит">
+      <created>1675980105399</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675980105399</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Первый коммит">
+      <created>1675981579188</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675981579188</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Первый коммит">
+      <created>1676033664780</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676033664780</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Первый коммит">
+      <created>1676398569193</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676398569193</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Тесты">
+      <created>1676404502509</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676404502509</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Первый коммит" />
+    <MESSAGE value="Тесты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Тесты" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lessonMockito$UserRepositoryTest.ic" NAME="UserRepositoryTest Coverage Results" MODIFIED="1676105253991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.test.*</FILTER>
+    </SUITE>
   </component>
 </project>

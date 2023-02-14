@@ -3,20 +3,32 @@ package org.example.service;
 import org.example.exception.UserNonUniqueException;
 import org.example.repository.UserRepository;
 import org.example.user.User;
-
-import java.util.Optional;
+import java.util.Collection;
+import java.util.stream.Collectors;
 
 
 public class UserService {
 
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
 
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
+    public Object getAllLogins() {
+        try {
+            Collection<User> users = this.userRepository
+                    .getAllUsers();
+            if (users == null) {
+                return 0;
+            }
+            return users
+                    .stream()
+                    .map(User::getLogin)
+                    .collect(Collectors.toList());
 
-    public Optional<User> loginOfUsers(){
-        return userRepository.getByLogin(User.getLogin());
+        } catch (RuntimeException e) {
+            return 0;
+        }
     }
 
     public void addNewUser(String login, String passvord){

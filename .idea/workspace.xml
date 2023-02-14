@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bc7115d8-610c-4817-b0dd-cf3f5a7d438e" name="Changes" comment="Первый коммит">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/UserRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +32,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2LMMvmKDRLPdz28n0yb3TO59Nmr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,7 +60,7 @@
       <recent name="org.example.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryTest.getAllUsersTest">
+  <component name="RunManager" selected="JUnit.UserRepositoryTest">
     <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lessonMockito" />
       <extension name="coverage">
@@ -125,9 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRepositoryTest" />
         <item itemvalue="JUnit.UserRepositoryTest.getAllUsersTest" />
         <item itemvalue="JUnit.UserRepositoryTest.emptyList" />
-        <item itemvalue="JUnit.UserRepositoryTest" />
         <item itemvalue="JUnit.UserRepositoryTest.listNotNull" />
       </list>
     </recent_temporary>
@@ -151,7 +152,12 @@
       <workItem from="1675923641908" duration="71000" />
       <workItem from="1675923781297" duration="14514000" />
       <workItem from="1675959432523" duration="10492000" />
-      <workItem from="1676017817538" duration="6302000" />
+      <workItem from="1676017817538" duration="7748000" />
+      <workItem from="1676051018879" duration="1196000" />
+      <workItem from="1676103149925" duration="2493000" />
+      <workItem from="1676197037675" duration="1195000" />
+      <workItem from="1676358806659" duration="632000" />
+      <workItem from="1676395525829" duration="1731000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит">
       <created>1675681696941</created>
@@ -244,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675981579188</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Первый коммит">
+      <created>1676033664780</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676033664780</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,5 +277,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Первый коммит" />
     <option name="LAST_COMMIT_MESSAGE" value="Первый коммит" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lessonMockito$UserRepositoryTest.ic" NAME="UserRepositoryTest Coverage Results" MODIFIED="1676105253991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.test.*</FILTER>
+    </SUITE>
   </component>
 </project>

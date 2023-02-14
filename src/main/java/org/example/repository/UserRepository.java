@@ -4,17 +4,14 @@ import org.example.user.User;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 public class UserRepository {
 
     private List<User> users = new ArrayList<>();
 
 
-    public List<User> getAllUsers(){
+    public Collection<User> getAllUsers(){
         return users;
     }
     public void addUser(User user) {
